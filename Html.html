@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Assignment</h1>
+    <h2>Sum of Digits</h2>
+    <form action="/cgi-bin/python_scripts.py" method="post">
+        <label for="number">Enter a number:</label>
+        <input type="text" name="number" id="number" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Dice Rolling Game</h2>
+    <form action="/cgi-bin/python_scripts.py" method="post">
+        <label for="dices">Number of dices:</label>
+        <input type="number" name="dices" id="dices" required>
+        <label for="max_value">Largest dice value:</label>
+        <input type="number" name="max_value" id="max_value" required>
+        <label for="tries">Number of tries:</label>
+        <input type="number" name="tries" id="tries" required>
+        <input type="submit" value="Play">
+    </form>
+</body>
+</html>
